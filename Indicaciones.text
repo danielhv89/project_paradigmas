@@ -1,0 +1,48 @@
+Links de apoyo: 
+
+https://www.youtube.com/watch?v=kHV7gOHvNdk
+
+https://github.com/michaelcheng429/meanstacktutorial
+
+
+Proyecto: 
+
+1) conctar table_update.js, conectar con el server via Ajax (quedara la vercion q)
+2) Conectar el drawing.js // implementarlo!!
+3) Tambien server.js debe pasar a q
+
+
+Extras:
+
+1) Mover el servidor a "express.js" (fimware que corre en Node)
+2) Conectar el Servidor a una base de datos
+3) Mover la pagina a Angular 
+4) Invertir las funciones de Servidor -> Cliente. Actualmente el Cliente pide los datos al Servidor
+
+
+Lista de comandos:
+
+Browser: http://localhost:3000/
+
+Termnal: 
+
+1) cd /Users/Daniel/Desktop/project/
+2) sudo npm install express
+3) node server
+4) sudo mongod
+  Abrir un Terminal sin cerrar la anterior para trabajar con Mongo:
+  4.1) mongo
+  4.2) show dbs
+  4.3) use contactlist
+  4.5) db.contactlist.insert({name: 'Tom', email: 'tom@testemail.com', number: '111-111'})
+  4.6) db.contactlist.find()
+  4.7) db.contactlist.find().pretty()
+  4.8)db.contactlist.insert({name: 'Daniel', email: 'daniel@testemail.com', number: '222-222'})
+
+// Volver a terminal e instalar en 'cd /Users/Daniel/Desktop/project/' :
+5)sudo npm install mongojs
+
+// Volver a terminal e instalar en 'cd /Users/Daniel/Desktop/project/' :
+6) sudo npm install body-parser
+
+ 
